@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="ParallelExecution">
+	<test name="FirstTest">
+		<classes>
+			<class name="com.testNG.crm.FirstBathTest" />
+			<class name="com.dependenceOnMethod.crm.DependsOnMethod" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="SecondTest">
+		<classes>
+			<class name="com.testNG.crm.SecondBathTest" />
+		</classes>
+	</test>
+
+	<test name="ThirdTest">
+		<classes>
+			<class name="com.prctice.crm.Practice1" />
+			<class name="com.prctice.crm.Practice2" />
+		</classes>
+	</test>
+</suite> <!-- ParallelExecution -->

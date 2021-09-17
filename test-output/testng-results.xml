@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68" started-at="2021-09-17T14:40:54 IST" finished-at="2021-09-17T14:40:54 IST">
+    <groups>
+      <group name="performance">
+        <method signature="FirstBathTest.loginToApp()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="loginToApp" class="com.testNG.crm.FirstBathTest"/>
+        <method signature="FirstBathTest.logoutFromApp()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="logoutFromApp" class="com.testNG.crm.FirstBathTest"/>
+      </group> <!-- performance -->
+      <group name="regression">
+        <method signature="FirstBathTest.goToHomePage()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="goToHomePage" class="com.testNG.crm.FirstBathTest"/>
+        <method signature="FirstBathTest.logoutFromApp()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="logoutFromApp" class="com.testNG.crm.FirstBathTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="68" started-at="2021-09-17T14:40:54 IST" finished-at="2021-09-17T14:40:54 IST">
+      <class name="com.testNG.crm.FirstBathTest">
+        <test-method status="PASS" signature="configBt()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="configBt" is-config="true" duration-ms="10" started-at="2021-09-17T14:40:54 IST" finished-at="2021-09-17T14:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBt -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="goToHomePage" duration-ms="6" started-at="2021-09-17T14:40:54 IST" finished-at="2021-09-17T14:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="loginToApp" duration-ms="2" started-at="2021-09-17T14:40:54 IST" finished-at="2021-09-17T14:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="logoutFromApp()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="logoutFromApp" duration-ms="1" started-at="2021-09-17T14:40:54 IST" finished-at="2021-09-17T14:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="configAt()[pri:0, instance:com.testNG.crm.FirstBathTest@34c4973]" name="configAt" is-config="true" duration-ms="0" started-at="2021-09-17T14:40:54 IST" finished-at="2021-09-17T14:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAt -->
+      </class> <!-- com.testNG.crm.FirstBathTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
