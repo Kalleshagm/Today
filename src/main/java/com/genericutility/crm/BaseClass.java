@@ -25,17 +25,17 @@ public class BaseClass {
 
 	@BeforeTest
 	public void configBt() {
-		
-		 String var = System.getProperty("browser");
-		 
-		 if (var.equals("chrome")) { driver = new ChromeDriver(); }
-		 
+
+		/*
+		 * String var = System.getProperty("browser"); if (var.equals("chrome")) {
+		 * driver = new ChromeDriver(); }
+		 */
 		System.out.println("launch browser");
 	}
 
 	@AfterTest
 	public void configAt() {
-		//driver.quit();
+		// driver.quit();
 		System.out.println("close browser");
 	}
 }
